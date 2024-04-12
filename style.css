@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Ketoprak';
+    src: url('/public/fonts/Ketoprak.ttf') format('truetype');
+}
+
+h1 {
+    font-family: Ketoprak;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background-image: url("/public/images/Hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 128px;
+    line-height: 64%;
+}
