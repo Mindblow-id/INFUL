@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-    background-image: url("../public/images/Hero.png");
+    background-image: url("../public/images/Hero.webp");
     background-size: cover;
     background-position: center;
     height: 100vh;
